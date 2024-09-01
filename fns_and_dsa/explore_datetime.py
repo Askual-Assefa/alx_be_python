@@ -33,5 +33,5 @@ def main():
     days = int(input("Enter the number of days to add to the current date: "))
     calculate_future_date(current_date, days)
 
-if name == "main":
+if __name__ == "__main__":
     main()
